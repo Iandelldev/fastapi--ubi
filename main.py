@@ -31,7 +31,7 @@ corridas: list[Corrida] = [
             destino = 'parnaiba',
             distancia = 12,
             valor = calcular(distancia=12),
-            estado= 'requisitada'))
+            estado= 'andamento')
 ]
 
 
