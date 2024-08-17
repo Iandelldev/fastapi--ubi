@@ -25,13 +25,13 @@ corridas: list[Corrida] = [
             destino='sp',
             distancia= 6,
             valor = calcular(distancia=6),
-            estado = ('Requisitada', 'Em Andamento', 'Finalizado')),
+            estado = 'requisitada'),
     Corrida(id=str(ulid()),
             origem = 'timon',
             destino = 'parnaiba',
             distancia = 12,
             valor = calcular(distancia=12),
-            estado= ('Requisitada', 'Em Andamento', 'Finalizado'))
+            estado= 'requisitada'))
 ]
 
 
